@@ -1,0 +1,43 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    height: 15%;
+}
+
+.clickbutton, .resetbutton {
+    color: white;
+    background-color: rgb(45, 176, 227);
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    height: 35%;
+    width: 80px;
+}
+
+.clickbutton:hover {
+    background-color: rgba(45, 175, 227, 0.659);
+    cursor: pointer;
+}
+
+.clickbutton:active {
+    background-color: rgb(45, 176, 227);
+}
+
+.resetbutton {
+    background-color: rgb(224, 50, 50);
+}
+
+.resetbutton:hover {
+    background-color: rgba(224, 50, 50, 0.69);
+    cursor: pointer;
+}
+
+.resetbutton:active {
+    background-color: rgb(224, 50, 50);
+}
+
